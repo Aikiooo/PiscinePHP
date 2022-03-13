@@ -20,15 +20,15 @@ if(isset($_POST['submit'])){
                     header("Location:admin/inc/dashboard.php");
                         
                     }else{
-                        $erreur ="idAdmin ou mot de passe inconue";
+                        $erreur ="idAdmin ou mot de passe inconnu";
                     }
                     
                 }else{                        
-                        $erreur = "Veuillez saisir votre password";
+                        $erreur = "Veuillez saisir votre mot de passe";
                 }
             
             }else{
-                $erreur = "Veuillez saisir un email valide!";
+                $erreur = "Veuillez saisir un email valide";
             }
         
         }else{
