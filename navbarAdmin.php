@@ -33,6 +33,9 @@
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link active" href="#">Paramètre personnel</a>
+                        <a class="nav-link active" href="#">Paramètre personnel</a>
+                        <a class="nav-link active" href="#">Paramètre personnel</a>
+
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link active" href="#">Paramètre code</a>
