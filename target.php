@@ -1,12 +1,14 @@
-    ?php
+<?php
 
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=Piscine;charset=utf8', 'adminSIO', 'toto');
+    $bdd = new PDO('mysql:host=localhost;dbname=Piscine;charset=utf8', 'root', '');
 }
 
 catch(Exception $e) {
     die('erreur :'.$e->getMessage());
 }
+
+$psw = $_POST['mdp'];
 $req = $bdd->prepare('INSERT INTO `admin`(prénom, nom, mdp, `e-mail`, adresse, numTel) VALUES(?, ?, ?, ?, ?, ?)');
 $req->execute(array($_POST['prénom'], $_POST['nom'], $_POST['mdp'], $_POST['`e-mail`'], $_POST['adresse'], $_POST['numTel']));
 

@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Accueil</a>
+                        <a class="nav-link active" href="AccLambda.php">Accueil</a>
                     </li>
                     <li class="nav-item dropdown pe-4">
                         <a class="nav-link active" href="#">Piscine</a>

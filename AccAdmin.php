@@ -12,7 +12,15 @@
 
 <body>
     <?php
-        require_once('navbarAdmin.php')
+    session_start();
+    if(session_id('admin')) {
+        require_once('navbarAdmin.php');
+    }
+    else {
+    require_once('navbarLambda.php.php');
+    }
+
+        
         
     ?>
     

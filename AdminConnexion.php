@@ -13,6 +13,8 @@
             <!-- zone de connexion -->
             
             <?php include_once "admin/inc/script_login.php"?>
+            <?php require_once ('navbarLambda.php');?>
+            
             <?php if(isset($erreur)){echo $erreur;}?>
 
             <!-- <form action="" method="POST">
