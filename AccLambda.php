@@ -10,12 +10,12 @@
     <title>Accueil</title>
     <?php
     session_start();
-    if(session_id('admin')) {
-        require_once('navbarAdmin.php');
-    }
-    else {
-    require_once('navbarLambda.php');
-    }
+        if(session_id('admin')) {
+            require_once('navbarAdmin.php');
+        }
+        else {
+        require_once('navbarLambda.php');
+        }
 
         
         
