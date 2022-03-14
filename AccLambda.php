@@ -9,15 +9,14 @@
     
     <title>Accueil</title>
     <?php
-    session_start();
-    if(session_id('admin')) {
+    
+    if (session_status() === PHP_SESSION_ACTIVE) {
         require_once('navbarAdmin.php');
     }
     else {
     require_once('navbarLambda.php');
     }
-
-        
+      
         
     ?>
 <head>
