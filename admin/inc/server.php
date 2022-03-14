@@ -1,7 +1,7 @@
 <?php $host = "localhost";
 $dbname="piscine";
-$admin = "root";
-$pass = ""; 
+$admin = "adminSIO";
+$pass = "toto"; 
 
 try{ 
     $pdo = new PDO("mysql: host=$host; dbname=$dbname", $admin, $pass); 

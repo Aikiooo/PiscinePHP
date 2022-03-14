@@ -30,7 +30,7 @@
             <form action="" method="post">
                 <input class="" type="text" name="idAdmin" placeholder="ID">
                 <input class="" type="password" name="mdp" placeholder="Mot de passe">
-                <button type="submit" name="submit"> Se connecter </button>
+                <button class="buttoncenter" type="submit" name="submit"> Se connecter </button>
 
 
 
