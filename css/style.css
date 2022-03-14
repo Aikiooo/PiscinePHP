@@ -46,6 +46,13 @@ body{
     background-size: cover;
 }
 
+div{
+    margin: 20px auto;
+    width: 90%;
+    padding: 15px;
+    text-align:center;
+}
+
 
 /*____________________________ FOOTER___________________________*/
 footer {
