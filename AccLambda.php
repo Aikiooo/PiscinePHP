@@ -36,6 +36,9 @@
             L'accès aux <strong>piscines de Rennes</strong> est désormais conditionné à la détention <a href="https://www.gouvernement.fr/info-coronavirus/pass-sanitaire" target="_blank" title="pass sanitaire : définition (nouvelle fenêtre)" rel="noopener noreferrer">pass sanitaire</a> valide, et ce dès l'âge de 12 ans et 2 mois. les règles sanitaires en cours restent en vigueur (distanciation physique, lavage des mains..).
         </p>
     <!--</div>-->
+    <br />
+    <br />
+    <img src="./imgP/CaptureHoraires.png" alt="">
 
 </body>
 <footer>
