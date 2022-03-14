@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
                 $rows = $getdata->rowCount();
 
                 if($rows==true){
-                    $_SESSION['admin']=$_POST['`e-mail`'];
+                    $_SESSION['admin']=$_POST['idAdmin'];
                     header("Location:admin/inc/dashboard.php");
                         
                     }else{
