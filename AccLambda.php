@@ -23,10 +23,6 @@
 </head>
 
 <body>
-    <?php
-        require_once('navbarLambda.php')
-        
-    ?>
     <p>
     <br />
     <br />
