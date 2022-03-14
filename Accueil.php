@@ -10,11 +10,11 @@
     <title>Accueil</title>
     <?php
     
-    if (session_status() === PHP_SESSION_ACTIVE) {
+    if (session_status() !== PHP_SESSION_ACTIVE) {
         require_once('navbarAdmin.php');
     }
     else {
-    require_once('navbarLambda.php');
+        require_once('navbarLambda.php');
     }
       
         
