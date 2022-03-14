@@ -35,3 +35,4 @@ if(isset($_POST['submit'])){
             $erreur = "Veuillez saisir un idAdmin";        
         }
     }
+?>

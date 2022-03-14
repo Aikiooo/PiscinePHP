@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style1.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
     <title>Document</title>
 </head>
     <body>
         <div id="container">
             <!-- zone de connexion -->
             
-            <?php include_once "admin/inc/script_login.php"?>
             <?php require_once ('navbarLambda.php');?>
+            <?php include_once "admin/inc/script_login.php"?>
+            
             
             <?php if(isset($erreur)){echo $erreur;}?>
 
