@@ -16,6 +16,7 @@
         require_once('navbarLambda.php')
         
     ?>
+    <divo>
     <p>
     <br />
     <br />
@@ -24,27 +25,26 @@
     <br />
     <br />
     <br />
-        <div>
         <h1>
         <br />
         <br />
-    Où nager, quel jour et à quelle heure à Rennes et dans la métropole ? Tous les horaires d'ouverture des piscines et de leurs bassins.
+            Où nager, quel jour et à quelle heure à Rennes et dans la métropole ? Tous les horaires d'ouverture des piscines et de leurs bassins.
         </h1>
-        </div>
     </p>
+    </divo>
     <br />
     <br />
-        <div>
+        <divo>
         <h3>Conditions d'accès (Covid)</h3>
         <p>
             L'accès aux <strong>piscines de Rennes</strong> est désormais conditionné à la détention <a href="https://www.gouvernement.fr/info-coronavirus/pass-sanitaire" target="_blank" title="pass sanitaire : définition (nouvelle fenêtre)" rel="noopener noreferrer">pass sanitaire</a> valide, et ce dès l'âge de 12 ans et 2 mois. les règles sanitaires en cours restent en vigueur (distanciation physique, lavage des mains..).
         </p>
-        </div>
+        </divo>
     <br />
     <br />
-    <div>
-    <img src="./imgP/CaptureHoraires.png" alt="">
-    </div>
+    <divo>
+        <img src="./imgP/CaptureHoraires.png" alt="">
+    </divo>
 
 </body>
 <head>
@@ -55,7 +55,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <div class="footer-dark">
         <footer>

@@ -46,7 +46,7 @@ body{
     background-size: cover;
 }
 
-div{
+divo{
     margin: 20px auto;
     width: 90%;
     padding: 15px;
@@ -75,7 +75,7 @@ footer h3{
 .footer-dark {
     padding:50px 0;
     color:#f0f9ff;
-    background-color:#282d32;
+    background-color:#0c2c4d;
 }
   
 .footer-dark h3 {
