@@ -23,14 +23,13 @@
 </head>
 
 <body>
-<<<<<<< HEAD
+
     <?php
         require_once('navbarLambda.php')
         
     ?>
     <divo>
-=======
->>>>>>> 6ce2ca8f7205a5f5180cc941af2bf0b231a87e87
+
     <p>
     <br />
     <br />
