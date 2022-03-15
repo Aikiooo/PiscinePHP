@@ -11,10 +11,10 @@
     <?php
     
     if (session_status() === PHP_SESSION_ACTIVE) {
-        require_once('navbarAdmin.php');
+        require('navbarAdmin.php');
     }
     else {
-        require_once('navbarLambda.php');
+        require('navbarLambda.php');
     }
       
         

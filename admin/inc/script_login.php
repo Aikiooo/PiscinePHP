@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 if(isset($_POST['submit'])){
     if(isset($_POST['idAdmin']) and !empty($_POST['idAdmin'])){
         if(filter_var($_POST['idAdmin'], FILTER_VALIDATE_INT)){
@@ -16,7 +14,7 @@ if(isset($_POST['submit'])){
                 $rows = $getdata->rowCount();
 
                 if($rows==true){
-                    $_SESSION['admin']=$_POST['nom'];
+                    $_SESSION['admin']=$_POST['idAdmin'];
                     header("Location:admin/inc/dashboard.php");
                         
                     }else{
