@@ -8,15 +8,29 @@
     <link rel="shortcut icon" href="./imgP/logoville.jpg">
     
     <title>Accueil</title>
+    <?php
+    
+    if (session_status() === PHP_SESSION_ACTIVE) {
+        require_once('navbarAdmin.php');
+    }
+    else {
+    require_once('navbarLambda.php');
+    }
+      
+        
+    ?>
 <head>
 </head>
 
 <body>
+<<<<<<< HEAD
     <?php
         require_once('navbarLambda.php')
         
     ?>
     <divo>
+=======
+>>>>>>> 6ce2ca8f7205a5f5180cc941af2bf0b231a87e87
     <p>
     <br />
     <br />
