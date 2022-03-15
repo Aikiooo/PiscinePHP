@@ -14,7 +14,7 @@
         require_once('navbarAdmin.php');
     }
     else {
-    require_once('navbarLambda.php');
+        require_once('navbarLambda.php');
     }
       
         

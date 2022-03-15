@@ -10,13 +10,13 @@ if(isset($_POST['submit'])){
 
                 $password = sha1($_POST['mdp']);
 
-                $getdata = $pdo->prepare("SELECT `e-mail` FROM admin WHERE idAdmin=? and mdp=?");
+                $getdata = $pdo->prepare("SELECT nom FROM admin WHERE idAdmin=? and mdp=?");
                 $getdata ->execute(array($_POST['idAdmin'], $password));
                 
                 $rows = $getdata->rowCount();
 
                 if($rows==true){
-                    $_SESSION['role']= 'administrateur';
+                    $_SESSION['admin']=$_POST['nom'];
                     header("Location:admin/inc/dashboard.php");
                         
                     }else{

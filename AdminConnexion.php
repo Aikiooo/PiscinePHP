@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style1.css" media="screen" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
     <title>Document</title>
 </head>
     <body>
@@ -13,9 +12,8 @@
             <!-- zone de connexion -->
             
             <?php require_once ('navbarLambda.php');?>
+        
             <?php include_once "admin/inc/script_login.php"?>
-            
-            
             <?php if(isset($erreur)){echo $erreur;}?>
 
             <!-- <form action="" method="POST">
@@ -31,6 +29,7 @@
                 <input class="" type="text" name="idAdmin" placeholder="ID">
                 <input class="" type="password" name="mdp" placeholder="Mot de passe">
                 <button class="buttoncenter" type="submit" name="submit"> Se connecter </button>
+            </form>
 
 
 

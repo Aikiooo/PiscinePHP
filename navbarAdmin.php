@@ -7,7 +7,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-md-auto">
                 <li class="nav-item pe-4">
-                        <a class="nav-link active" href="AccAdmin.php">Accueil</a>
+                        <a class="nav-link active" href="/Accueil.php">Accueil</a>
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link active" href="#">Modification principale</a>
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="/AccLambda.php">Déconnexion</a>
+                        <a class="nav-link active" href="http://piscine/process.php">Déconnexion</a>
                     </li>
                 </ul>
             </div>
