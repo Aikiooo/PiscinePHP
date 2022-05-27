@@ -11,10 +11,12 @@ if(isset($_POST['submit'])){
                 $getdata = $pdo->prepare("SELECT username FROM admin WHERE id=? and password=?");
                 $getdata ->execute(array($_POST['id'], $password));
                 
+
                 $rows = $getdata->rowCount();
 
                 if($rows==true){
-                    $admin = $_SESSION['Administrateur']=$_POST['id'];
+                    session_start();
+                    $_SESSION['idAdministrateur'] = $_POST['id'];
                     header("Location:admin/inc/dashboard.php");
                         
                     }else{
