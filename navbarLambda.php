@@ -9,7 +9,7 @@
                         <a class="nav-link active" href="Accueil.php">Accueil</a>
                     </li>
                     <li class="nav-item dropdown pe-4">
-                        <a class="nav-link active" href="#">Piscine</a>
+                        <a class="nav-link active" href="Piscine.php">Piscine</a>
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link active" href="#">Tarifs</a>
