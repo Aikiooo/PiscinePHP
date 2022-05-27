@@ -12,3 +12,4 @@ try{
         die(print_r("Erreur bdd : ".$e->getMessage()));
     
     }
+?>

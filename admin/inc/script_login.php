@@ -1,24 +1,24 @@
 <?php
 if(isset($_POST['submit'])){
-    if(isset($_POST['idAdmin']) and !empty($_POST['idAdmin'])){
-        if(filter_var($_POST['idAdmin'], FILTER_VALIDATE_INT)){
-            if(isset($_POST['mdp']) and !empty($_POST['mdp'])){
+    if(isset($_POST['id']) and !empty($_POST['id'])){
+        if(filter_var($_POST['id'], FILTER_VALIDATE_INT)){
+            if(isset($_POST['password']) and !empty($_POST['password'])){
 
                 require "server.php";
 
-                $password = sha1($_POST['mdp']);
+                $password = sha1($_POST['password']);
 
-                $getdata = $pdo->prepare("SELECT nom FROM admin WHERE idAdmin=? and mdp=?");
-                $getdata ->execute(array($_POST['idAdmin'], $password));
+                $getdata = $pdo->prepare("SELECT username FROM admin WHERE id=? and password=?");
+                $getdata ->execute(array($_POST['id'], $password));
                 
                 $rows = $getdata->rowCount();
 
                 if($rows==true){
-                    $_SESSION['admin']=$_POST['idAdmin'];
+                    $_SESSION['admin']=$_POST['id'];
                     header("Location:admin/inc/dashboard.php");
                         
                     }else{
-                        $erreur ="idAdmin ou mot de passe inconnu";
+                        $erreur ="id ou mot de passe inconnu";
                     }
                     
                 }else{                        
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
             }
         
         }else{
-            $erreur = "Veuillez saisir un idAdmin";        
+            $erreur = "Veuillez saisir un id";        
         }
     }
 ?>
