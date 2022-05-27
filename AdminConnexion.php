@@ -26,8 +26,8 @@
             </form> -->
 
             <form action="" method="post">
-                <input class="" type="text" name="idAdmin" placeholder="ID">
-                <input class="" type="password" name="mdp" placeholder="Mot de passe">
+                <input class="" type="text" name="id" placeholder="ID">
+                <input class="" type="password" name="password" placeholder="Mot de passe">
                 <button class="buttoncenter" type="submit" name="submit"> Se connecter </button>
             </form>
 
