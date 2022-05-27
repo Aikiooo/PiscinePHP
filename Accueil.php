@@ -9,14 +9,25 @@
     
     <title>Accueil</title>
     <?php
-    
-    if (session_status() === PHP_SESSION_ACTIVE) {
+
+    # Il faut débuter par un session start sur chaque page nécéssitant une connexion
+    # Ici elle continue la session existante si l'admin s'est connecté, autrement elle en génère une nouvelle
+    session_start();
+    # Ce if vérifie si la session idAdministrateur existe pas, auquel cas elle affiche la navbarLambda
+    if (!isset($_SESSION['idAdministrateur'])) {
+        require('navbarLambda.php');
+        }
+
+    # Elle vérifie ensuite que la valeur de l'admin est bien un int, auquel cas elle affiche la navbarAdmin
+    else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
         require('navbarAdmin.php');
-    }
+        }
+
+    # Si la session idAdministrateur existe mais qu'elle n'est pas un int, alors elle affiche la navbarLambda
     else {
         require('navbarLambda.php');
-    }
-      
+        }
+
         
     ?>
 <head>
@@ -24,10 +35,7 @@
 
 <body>
 
-    <?php
-        require_once('navbarLambda.php')
-        
-    ?>
+
     <divo>
 
     <p>

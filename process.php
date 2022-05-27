@@ -1,6 +1,8 @@
 <?php
-session_unset();
+# Ce code permet de se déconnecter, en supprimant la session
+sleep(2);
+session_start();
 session_destroy();
-header("Location: ./Accueil.php");
-exit();
+$_SESSION = NULL;
+header("Location:http://localhost/Piscine/PiscinePHP/Accueil.php");
 ?>

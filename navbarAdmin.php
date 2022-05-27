@@ -2,12 +2,12 @@
     <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
         <div class="container-fluid">
             <a class="navbar-brand text-uppercase  fw-bolder mx-4 py-3" href="/">
-            <img src="imgP/logoville.jpg" alt="" width="80" height="80" style="display: inline-block;" >
+            <img src="http://localhost/Piscine/PiscinePHP/imgP/logoville.jpg" alt="" width="80" height="80" style="display: inline-block;" >
             </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-md-auto">
                 <li class="nav-item pe-4">
-                        <a class="nav-link active" href="/Accueil.php">Accueil</a>
+                        <a class="nav-link active" href="http://localhost/Piscine/PiscinePHP/Accueil.php">Accueil</a>
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link active" href="#">Modification principale</a>
@@ -16,8 +16,6 @@
                         <a class="nav-link active" href="#">Paramètre client</a>
                     </li>
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Paramètre personnel</a>
-                        <a class="nav-link active" href="#">Paramètre personnel</a>
                         <a class="nav-link active" href="#">Paramètre personnel</a>
 
                     </li>
@@ -31,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="http://piscine/process.php">Déconnexion</a>
+                        <a class="nav-link active" href="http://localhost/Piscine/PiscinePHP/process.php">Déconnexion</a>
                     </li>
                 </ul>
             </div>
