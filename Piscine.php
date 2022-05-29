@@ -28,6 +28,19 @@
         require_once('navbarLambda.php')
         
     ?>
+    < section class="banner pt-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                 <div class="col-md-6">
+                     <h1>
+                     Pour se détendre après une journée intense <br />
+                     il y a de nombreuses piscines à Rennes
+                     </h1>
+                 </div>
+             </div>
+         </div>
+    </section>
     <divo>
 
     <p>
