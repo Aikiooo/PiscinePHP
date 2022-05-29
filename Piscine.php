@@ -65,6 +65,7 @@
     <br />
     <br />
     <divo>
+        <p>
         <h2>Piscine de Bréquiny</h2>
         <br>
         <img src="./imgP/photopiscinebreq.jpg" alt="">
@@ -85,6 +86,7 @@
         <img src="./imgP/PiscineVillejean1.jpg" alt="">
         <br>
         <br>
+    </p>
     </divo>
 
 </body>
