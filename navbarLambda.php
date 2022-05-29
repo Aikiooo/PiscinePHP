@@ -12,7 +12,7 @@
                         <a class="nav-link active" href="Piscine.php">Piscine</a>
                     </li>
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Tarifs</a>
+                        <a class="nav-link active" href="Tarifs.php">Tarifs</a>
                     </li>
                     <li class="nav-item pe-4">
                         <a class="nav-link active" href="#">Tester un code</a>
