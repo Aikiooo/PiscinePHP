@@ -6,7 +6,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="http://localhost/Piscine/PiscinePHP/Accueil.php">Accueil</a>
+                        <a class="nav-link active" href="http://localhost/Piscine/PiscinePHP/Accueil.php">Accueil</a><!--localhost:8888/Piscine/PiscinePHP/Accueil.php #mellit  -->
                     </li>
                     <li class="nav-item dropdown pe-4">
                         <a class="nav-link active" href="Piscine.php">Piscine</a>
@@ -15,7 +15,7 @@
                         <a class="nav-link active" href="Tarifs.php">Tarifs</a>
                     </li>
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Tester un code</a>
+                        <a class="nav-link active" href="indexbarrec.php">Tester un code</a>
                     </li>
                 </ul>
             </div>
