@@ -3,7 +3,7 @@
 
 /*navbar Menu*/
 .cc-navbar{
-    background-color: rgba(22, 72, 209, 0.55);
+    background-color: #0c2c4d;
     font-family: 'Merriweather', serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
     z-index: 90;
@@ -18,7 +18,7 @@
 }
 /*page accueil*/
 .banner{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/ang1.jpg) center center fixed no-repeat;
+    background:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(../img/ang1.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 500px;
 }
