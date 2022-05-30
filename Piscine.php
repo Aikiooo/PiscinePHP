@@ -3,7 +3,8 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="shortcut icon" href="./imgP/logoville.jpg">
     
@@ -54,7 +55,8 @@
         <h1>
         <br />
         <br />
-        Pour se détendre après une journée intense ou simplement pour s'amuser un peu, aller à la piscine peut faire beaucoup de bien. Et cela tombe plutôt pas mal, il y a de nombreuses piscines à Rennes ! 
+        Pour se détendre après une journée intense ou simplement pour s'amuser un peu, aller à
+         la piscine peut faire beaucoup de bien. Et cela tombe plutôt pas mal, il y a de nombreuses piscines à Rennes ! 
         </h1>
     </p>
     </divo>
