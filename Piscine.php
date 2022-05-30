@@ -29,19 +29,72 @@
         require_once('navbarLambda.php')
         
     ?>
-    < section class="banner pt-5">
+    <h3>Pour se détendre après une journée intense <br />
+        il y a de nombreuses piscines à Rennes </h3>
+    <br />
+    
+    
+    <section class="available py-5">
          <div class="container">
              <div class="row">
-                 <div class="col-md-6">
-                 <div class="col-md-6">
-                     <h1>
-                     Pour se détendre après une journée intense <br />
-                     il y a de nombreuses piscines à Rennes
-                     </h1>
+                 <div class="card mb-3 border-0 rounded-0">
+                     <div class="row ">
+                         <div class="col-md-6">
+                             <img src="./imgP/piscineGayeulles.jpg" class="img-fluid" alt="...">
+                         </div>
+                         <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Piscine des Gayeulles</h5>
+                                <p class="card-text">
+                                    Bassin de 25 mètres, fosse de plongée de 10 mètres de profondeur, espace détente, 
+                                    hammams, lagune pour les tout- petits et piscine à vagues. École municipale de natation : 
+                                    cours collectifs à partir de la grande section de maternelle..
+                                </p>
+                                <p class="card-text"><a href="#" class="text-muted btn"> 16, avenue des Gayeulles 35000  Rennes</a></p>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="card mb-3 border-0 rounded-0">
+                     <div class="row ">
+                         <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Piscine Saint Georges</h5>
+                                <p class="card-text">
+                                        Cette piscine couverte de style Art Deco est équipée d'un bassin de 33,33 m x 14 m.
+                                        la Piscine St Georges de Rennes permet de nager dans une ambiance familiale.
+                                        Plusieurs activités sont proposées dans cette piscine de Rennes : cours d'aquagym, cours de natation, etc. 
+                                <p class="card-text"><a href="#" class="text-muted btn"> 2 Rue Gambetta 35000  Rennes</a></p>
+                            </div>
+                         </div>
+                         <div class="col-md-6">
+                             <img src="./imgP/PiscineSaintGeorges.jpg" class="img-fluid" alt="...">
+                         </div>
+                     </div>
+                 </div>
+                 <div class="card mb-3 border-0 rounded-0">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="./imgP/PiscineVillejean1.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Piscine de Villejean</h5>
+                            <p class="card-text">
+                                    Un bassin de 25 x 12,50 mètres,
+                                    Un plus petit bassin de 15 x 10 mètres.
+                                    Cette piscine municipale est le lieu idéal pour faire quelques longueurs et améliorer ses techniques de nage.
+                                    séances de bébés nageurs, des cours de natation, du water-polo, etc.
+                            </p>
+                            <p class="card-text"><a href="#" class="text-muted btn"> 1 Square d'Alsace 35000  Rennes</a></p>
+                        </div>
+                        </div>
+                    </div>
                  </div>
              </div>
-         </div>
-    </section>
+        </div>
+             </div>
+        </section> 
     <divo>
 
     <p>
@@ -55,8 +108,7 @@
         <h1>
         <br />
         <br />
-        Pour se détendre après une journée intense ou simplement pour s'amuser un peu, aller à
-         la piscine peut faire beaucoup de bien. Et cela tombe plutôt pas mal, il y a de nombreuses piscines à Rennes ! 
+        Pour se détendre après une journée intense ou simplement pour s'amuser un peu, aller à la piscine peut faire beaucoup de bien. Et cela tombe plutôt pas mal, il y a de nombreuses piscines à Rennes ! 
         </h1>
     </p>
     </divo>
