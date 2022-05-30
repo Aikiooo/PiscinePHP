@@ -30,9 +30,26 @@
         
     ?>
     
-    <h3>Pour se détendre après une journée intense <br />
-        il y a de nombreuses piscines à Rennes </h3>
+    <divo>
+
+    <p>
     <br />
+    <br />
+    <br />
+    <br />
+    
+        <h1>
+        <br />
+        <br />
+        Pour se détendre après une journée intense<br />
+        ou passer un bon moment en famille 
+        </h1>
+    </p>
+    <br />
+    <br />
+    <br />
+    </divo>
+  
     
     
     <section class="available py-5">
@@ -91,72 +108,28 @@
                         </div>
                         </div>
                     </div>
+                    <div class="card mb-3 border-0 rounded-0">
+                     <div class="row ">
+                         <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Piscine Bréquigny</h5>
+                                <p class="card-text">
+                                     Dispose de 2 bassins intérieurs et un bassin nordique.
+                                     Dispositifs de mise à l'eau pour les personnes handicapées.
+                                     cours collectifs à partir de la grande section de maternelle. Apprentissage, perfectionnement.
+                                <p class="card-text"><a href="#" class="text-muted btn"> 12 Bd Albert 1er, 35000  Rennes</a></p>
+                            </div>
+                         </div>
+                         <div class="col-md-6">
+                             <img src="./imgP/photopiscinebreq.jpg" class="img-fluid" alt="...">
+                         </div>
+                     </div>
+                 </div>
                  </div>
              </div>
         </div>
              </div>
         </section> 
-    <divo>
-
-    <p>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-        <h1>
-        <br />
-        <br />
-        Pour se détendre après une journée intense ou simplement pour s'amuser un peu, aller à la piscine peut faire beaucoup de bien. Et cela tombe plutôt pas mal, il y a de nombreuses piscines à Rennes ! 
-        </h1>
-    </p>
-    </divo>
-    <br />
-    <br />
-        <divo>
-        <h3>Les différentes piscines</h3>
-        <p>
-            Il y a quatres piscines a Rennes :
-            <br>
-            -La piscine Saint-Georges
-            <br>
-            -La piscine des Gayeulles
-            <br>
-            -La piscine de Villejean
-            <br>
-            -La piscine de Bréquiny
-
-        </p>
-        </divo>
-    <br />
-    <br />
-    <divo>
-        <p>
-        <h2>Piscine de Bréquiny</h2>
-        <br>
-        <img src="./imgP/photopiscinebreq.jpg" alt="">
-        <br>
-        <br>
-        <h2>Piscine des Gayeulles</h2>
-        <br>
-        <img src="./imgP/piscineGayeulles.jpg" alt="">
-        <br>
-        <br>
-        <h2>Piscine Saint Georges</h2>
-        <br>
-        <img src="./imgP/PiscineSaintGeorges.jpg" alt="">
-        <br>
-        <br>
-        <h2>Piscine de Villejean</h2>
-        <br>
-        <img src="./imgP/PiscineVillejean1.jpg" alt="">
-        <br>
-        <br>
-    </p>
-    </divo>
-
 </body>
 <head>
     <meta charset="utf-8">
