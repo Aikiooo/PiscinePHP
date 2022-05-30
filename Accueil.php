@@ -34,7 +34,7 @@
 </head>
 
 <body>
-        
+
 
     <divo>
 
@@ -46,9 +46,11 @@
         <h2>
         <br>
         <br>
-            Où nager, quel jour et à quelle heure à Rennes et dans la métropole ? Tous les horaires d'ouverture des piscines et de leurs bassins.
-            <br>
-            <br>
+            Où nager, quel jour et à quelle heure à Rennes et dans la métropole ? <br />
+             Tous les horaires d'ouverture des piscines et de leurs bassins.
+        <br>
+        <br>
+        
     </h2>
     </p>
     </divo>
