@@ -10,15 +10,17 @@
     <title>Piscine</title>
     <?php
     
-    if (session_status() === PHP_SESSION_ACTIVE) {
+     
+    if (!isset($_SESSION['idAdministrateur'])) {
+        require('navbarLambda.php');
+        }
+    else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
         require('navbarAdmin.php');
-    }
+        }
     else {
         require('navbarLambda.php');
-    }
-      
-        
-    ?>
+        }?>
+
 <head>
 </head>
 
@@ -31,30 +33,26 @@
     <divo>
 
     <p>
-    <br />
-    <br />
-    <br />
-    <br />
-        <h1>
-        <br />
-        <br />
-        Tarifs préférentiels 
-        </h1>
+    <br/><br/><br/><br/>
+        <h1><br/><br/>Tarifs préférentiels </h1>
     </p>
     </divo>
-    <br />
-    <br />
+    <br/>
+    <br/>
         <divo>
         <h3>Grille de tarifs</h3>
         <p>
         <br>
-        <img src="./imgP/tarifspiscine.png" alt="">
+        <img src="/Piscine/PiscinePHP/imgP/tarif18ans.png" alt="">
+        <a href="/Piscine/PiscinePHP/confirmation10entrees.php"><img src="/Piscine/PiscinePHP/imgP/tarifadulte.png" alt=""></a>
+
+
         <br>
         <br>
         </p>
         </divo>
-    <br />
-    <br />
+    <br/>
+    <br/>
 
 
 </body>

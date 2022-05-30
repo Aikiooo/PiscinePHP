@@ -11,7 +11,16 @@
         <div id="container">
             <!-- zone de connexion -->
             
-            <?php require_once ('navbarLambda.php');?>
+            <?php       
+            if (!isset($_SESSION['idAdministrateur'])) {
+                require('navbarLambda.php');
+                }
+            else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
+                require('navbarAdmin.php');
+                }
+            else {
+                require('navbarLambda.php');
+                }?>
         
             <?php include_once "admin/inc/script_login.php"?>
             <?php if(isset($erreur)){echo $erreur;}?>

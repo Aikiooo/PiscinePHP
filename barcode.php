@@ -1,5 +1,14 @@
 <?php
-
+                
+if (!isset($_SESSION['idAdministrateur'])) {
+    require('navbarLambda.php');
+    }
+else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
+    require('navbarAdmin.php');
+    }
+else {
+    require('navbarLambda.php');
+	}
 
 // For demonstration purposes, get pararameters that are passed in through $_GET or set to the default value
 $filepath = (isset($_GET["filepath"])?$_GET["filepath"]:"");
