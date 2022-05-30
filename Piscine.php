@@ -1,140 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./imgP/logoville.jpg">
-    
+
     <title>Piscine</title>
     <?php
-    
-       
+
+
     if (!isset($_SESSION['idAdministrateur'])) {
         require('navbarLambda.php');
-        }
-    else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
+    } else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
         require('navbarAdmin.php');
-        }
-    else {
+    } else {
         require('navbarLambda.php');
-        }
-      
-        
+    }
+
+
     ?>
-<head>
-</head>
+
+    <head>
+    </head>
 
 <body>
 
     <?php
-        require_once('navbarLambda.php')
-        
+    require_once('navbarLambda.php')
+
     ?>
-    
+
     <divo>
 
-    <p>
-    <br />
-    <br />
-    <br />
-    <br />
-    
+        <p>
+            <br />
+            <br />
+            <br />
+            <br />
+
         <h1>
-        <br />
-        <br />
-        Pour se détendre après une journée intense<br />
-        ou passer un bon moment en famille 
+            <br />
+            <br />
+            Pour se détendre après une journée intense<br />
+            ou passer un bon moment en famille
         </h1>
-    </p>
-    <br />
-    <br />
-    <br />
+        </p>
+        <br />
+        <br />
+        <br />
     </divo>
-  
-    
-    
+
+
+
     <section class="available py-5">
-         <div class="container">
-             <div class="row">
-                 <div class="card mb-3 border-0 rounded-0">
-                     <div class="row ">
-                         <div class="col-md-6">
-                             <img src="./imgP/piscineGayeulles.jpg" class="img-fluid" alt="...">
-                         </div>
-                         <div class="col-md-6">
+        <div class="container">
+            <div class="row">
+                <div class="card mb-3 border-0 rounded-0">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="./imgP/piscineGayeulles.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title">Piscine des Gayeulles</h5>
                                 <p class="card-text">
-                                    Bassin de 25 mètres, fosse de plongée de 10 mètres de profondeur, espace détente, 
-                                    hammams, lagune pour les tout- petits et piscine à vagues. École municipale de natation : 
+                                    Bassin de 25 mètres, fosse de plongée de 10 mètres de profondeur, espace détente,
+                                    hammams, lagune pour les tout- petits et piscine à vagues. École municipale de natation :
                                     cours collectifs à partir de la grande section de maternelle..
                                 </p>
-                                <p class="card-text"><a href="#" class="text-muted btn"> 16, avenue des Gayeulles 35000  Rennes</a></p>
+                                <p class="card-text"><a href="#" class="text-muted btn"> 16, avenue des Gayeulles 35000 Rennes</a></p>
                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="card mb-3 border-0 rounded-0">
-                     <div class="row ">
-                         <div class="col-md-6">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 border-0 rounded-0">
+                    <div class="row ">
+                        <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title">Piscine Saint Georges</h5>
                                 <p class="card-text">
-                                        Cette piscine couverte de style Art Deco est équipée d'un bassin de 33,33 m x 14 m.
-                                        la Piscine St Georges de Rennes permet de nager dans une ambiance familiale.
-                                        Plusieurs activités sont proposées dans cette piscine de Rennes : cours d'aquagym, cours de natation, etc. 
-                                <p class="card-text"><a href="#" class="text-muted btn"> 2 Rue Gambetta 35000  Rennes</a></p>
+                                    Cette piscine couverte de style Art Deco est équipée d'un bassin de 33,33 m x 14 m.
+                                    la Piscine St Georges de Rennes permet de nager dans une ambiance familiale.
+                                    Plusieurs activités sont proposées dans cette piscine de Rennes : cours d'aquagym, cours de natation, etc.
+                                <p class="card-text"><a href="#" class="text-muted btn"> 2 Rue Gambetta 35000 Rennes</a></p>
                             </div>
-                         </div>
-                         <div class="col-md-6">
-                             <img src="./imgP/PiscineSaintGeorges.jpg" class="img-fluid" alt="...">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="card mb-3 border-0 rounded-0">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./imgP/PiscineSaintGeorges.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 border-0 rounded-0">
                     <div class="row ">
                         <div class="col-md-6">
                             <img src="./imgP/PiscineVillejean1.jpg" class="img-fluid" alt="...">
                         </div>
                         <div class="col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">Piscine de Villejean</h5>
-                            <p class="card-text">
+                            <div class="card-body">
+                                <h5 class="card-title">Piscine de Villejean</h5>
+                                <p class="card-text">
                                     Un bassin de 25 x 12,50 mètres,
                                     Un plus petit bassin de 15 x 10 mètres.
                                     Cette piscine municipale est le lieu idéal pour faire quelques longueurs et améliorer ses techniques de nage.
                                     séances de bébés nageurs, des cours de natation, du water-polo, etc.
-                            </p>
-                            <p class="card-text"><a href="#" class="text-muted btn"> 1 Square d'Alsace 35000  Rennes</a></p>
-                        </div>
+                                </p>
+                                <p class="card-text"><a href="#" class="text-muted btn"> 1 Square d'Alsace 35000 Rennes</a></p>
+                            </div>
                         </div>
                     </div>
                     <div class="card mb-3 border-0 rounded-0">
-                     <div class="row ">
-                         <div class="col-md-6">
-                            <div class="card-body">
-                                <h5 class="card-title">Piscine Bréquigny</h5>
-                                <p class="card-text">
-                                     Dispose de 2 bassins intérieurs et un bassin nordique.
-                                     Dispositifs de mise à l'eau pour les personnes handicapées.
-                                     cours collectifs à partir de la grande section de maternelle. Apprentissage, perfectionnement.
-                                <p class="card-text"><a href="#" class="text-muted btn"> 12 Bd Albert 1er, 35000  Rennes</a></p>
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Piscine Bréquigny</h5>
+                                    <p class="card-text">
+                                        Dispose de 2 bassins intérieurs et un bassin nordique.
+                                        Dispositifs de mise à l'eau pour les personnes handicapées.
+                                        cours collectifs à partir de la grande section de maternelle. Apprentissage, perfectionnement.
+                                    <p class="card-text"><a href="#" class="text-muted btn"> 12 Bd Albert 1er, 35000 Rennes</a></p>
+                                </div>
                             </div>
-                         </div>
-                         <div class="col-md-6">
-                             <img src="./imgP/photopiscinebreq.jpg" class="img-fluid" alt="...">
-                         </div>
-                     </div>
-                 </div>
-                 </div>
-             </div>
+                            <div class="col-md-6">
+                                <img src="./imgP/photopiscinebreq.jpg" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-             </div>
-        </section> 
+        </div>
+    </section>
 </body>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -143,6 +143,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div class="footer-dark">
         <footer>

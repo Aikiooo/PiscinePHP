@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="shortcut icon" href="./imgP/logoville.jpg">
-    
-    <title>Piscine</title>
-    <?php
-    
-     
-    if (!isset($_SESSION['idAdministrateur'])) {
-        require('navbarLambda.php');
-        }
-    else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
-        require('navbarAdmin.php');
-        }
-    else {
-        require('navbarLambda.php');
-        }?>
 
 <head>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./imgP/logoville.jpg">
+
+    <title>Piscine</title>
+    <?php
+
+
+    if (!isset($_SESSION['idAdministrateur'])) {
+        require('navbarLambda.php');
+    } else if (filter_var($_SESSION['idAdministrateur'], FILTER_VALIDATE_INT)) {
+        require('navbarAdmin.php');
+    } else {
+        require('navbarLambda.php');
+    } ?>
+
+    <head>
+    </head>
 
 <body>
 
     <?php
-        require_once('navbarLambda.php')
-        
+    require_once('navbarLambda.php')
+
     ?>
     <divo>
 
-    <p>
-    <br/><br/><br/><br/>
-        <h1><br/><br/>Tarifs préférentiels </h1>
-    </p>
+        <p>
+            <br /><br /><br /><br />
+        <h1><br /><br />Tarifs préférentiels </h1>
+        </p>
     </divo>
-    <br/>
-    <br/>
-        <divo>
+    <br />
+    <br />
+    <divo>
         <h3>Grille de tarifs</h3>
         <p>
-        <br>
-        <a href="/Piscine/PiscinePHP/confirmation1entree.php"><img src="/Piscine/PiscinePHP/imgP/tarif1entree.png" alt=""></a>
-        <a href="/Piscine/PiscinePHP/confirmation10entrees.php"><img src="/Piscine/PiscinePHP/imgP/tarif10entrees.png" alt=""></a>
+            <br>
+            <a href="/Piscine/PiscinePHP/confirmation1entree.php"><img src="/Piscine/PiscinePHP/imgP/tarif1entree.png" alt=""></a>
+            <a href="/Piscine/PiscinePHP/confirmation10entrees.php"><img src="/Piscine/PiscinePHP/imgP/tarif10entrees.png" alt=""></a>
 
 
-        <br>
-        <br>
+            <br>
+            <br>
         </p>
-        </divo>
-    <br/>
-    <br/>
+    </divo>
+    <br />
+    <br />
 
 
 </body>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,6 +64,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div class="footer-dark">
         <footer>
