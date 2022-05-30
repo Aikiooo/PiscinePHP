@@ -18,8 +18,9 @@
 }
 /*page accueil*/
 .banner{
-    background:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(../img/ang1.jpg) center center fixed no-repeat;
+    background :url('../imgP/bassin.png') center center fixed no-repeat;
     background-size: cover;
+    
     height: 500px;
 }
 .banner .banner-desc{
