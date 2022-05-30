@@ -43,27 +43,47 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-        <h1>
-        <br />
-        <br />
+        <h2>
+        <br>
+        <br>
             Où nager, quel jour et à quelle heure à Rennes et dans la métropole ? Tous les horaires d'ouverture des piscines et de leurs bassins.
-        </h1>
+            <br>
+            <br>
+    </h2>
     </p>
     </divo>
-    <br />
-    <br />
+    <divo>
+    <p>
+        <img src="./imgP/photoFamille.png" alt="">
+        </p>
+    </divo>
+    <br>
+    <br>
         <divo>
         <h3>Conditions d'accès (Covid)</h3>
         <p>
+            <h3>
             L'accès aux <strong>piscines de Rennes</strong> est désormais conditionné à la détention <a href="https://www.gouvernement.fr/info-coronavirus/pass-sanitaire" target="_blank" title="pass sanitaire : définition (nouvelle fenêtre)" rel="noopener noreferrer">pass sanitaire</a> valide, et ce dès l'âge de 12 ans et 2 mois. les règles sanitaires en cours restent en vigueur (distanciation physique, lavage des mains..).
-        <br />
-        <br />
+    </h3>
+    </p>
+    <br>
+    <br>
+    <divo>
+    <p>
+        <img src="./imgP/photopass.jpg" alt="">
+        </p>
+    </divo>
+            <br>
+        <br>
+        <p>
         <img src="./imgP/CaptureHoraires.png" alt="">
         </p>
         </divo>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 </body>
 <head>
