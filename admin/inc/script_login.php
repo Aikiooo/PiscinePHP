@@ -28,10 +28,17 @@ if(isset($_POST['submit'])){
                 }
             
             }else{
-                $erreur = "Veuillez saisir un email valide";
+                require "server.php";
+                $idErreur = $_POST['id'];
+
+                $sql = "INSERT INTO erreur (id, username, password) VALUES (NULL,?,NULL)";
+                $sendErreur = $pdo->prepare($sql);
+                $sendErreur->execute([$idErreur]);
+                $erreur = "Veuillez saisir un identifiant valide";
             }
         
         }else{
+
             $erreur = "Veuillez saisir un id";        
         }
     }

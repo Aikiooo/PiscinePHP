@@ -43,8 +43,8 @@
         <h3>Grille de tarifs</h3>
         <p>
         <br>
-        <img src="/Piscine/PiscinePHP/imgP/tarif18ans.png" alt="">
-        <a href="/Piscine/PiscinePHP/confirmation10entrees.php"><img src="/Piscine/PiscinePHP/imgP/tarifadulte.png" alt=""></a>
+        <a href="/Piscine/PiscinePHP/confirmation1entree.php"><img src="/Piscine/PiscinePHP/imgP/tarif1entree.png" alt=""></a>
+        <a href="/Piscine/PiscinePHP/confirmation10entrees.php"><img src="/Piscine/PiscinePHP/imgP/tarif10entrees.png" alt=""></a>
 
 
         <br>

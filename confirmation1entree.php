@@ -35,11 +35,11 @@
 
 
 
-            Confirmez-vous l'achat de 10 places ?<br>
+            Confirmez-vous l'achat d'une place ?<br>
 
             <br>
             <form method="post">
-                <button type="submit" name="button1" class="btn btn-primary btn-lg">Acheter pour 25€</button>
+                <button type="submit" name="button1" class="btn btn-primary btn-lg">Acheter pour 4€</button>
             </form>
             </h4>
             <p>
@@ -64,7 +64,7 @@
 
                     $code10 = "INSERT INTO abonne (code, type_abonnement_id, piscine_id, date_abonnement, nb_places_restantes, actif) VALUES (?,?,?,?,?,?)";
                     $sendErreur = $pdo->prepare($code10);
-                    $sendErreur->execute([$code, '1', '1', $date, '10', '1']);
+                    $sendErreur->execute([$code, '2', '1', $date, '1', '1']);
                 }
                 ?>
             </p>

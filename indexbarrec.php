@@ -53,25 +53,50 @@
         <form class="form-horizontal" method="POST" id="barcode">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="form-group">
+                    <div name="entreCode" class="form-group">
                         <label>Tapez votre code ici :</label>
                         <input type="text" name="string" class="form-control" value="">
                     </div>
                 </div>
             </div>
+<?php
+
+                function testCode($code){
+                    require 'admin/inc/server.php';
+                    $conn = mysqli_connect($host, $admin, $pass, $dbname);
+                    $quelCode = "SELECT nb_places_restantes FROM abonne WHERE code= '$code'";
+                    
+                    $result = mysqli_query($conn, $quelCode);
+
+               
+
+                    while ($row = $result->fetch_assoc()) {
+                        $placesRestantes = $row['nb_places_restantes'];
+
+                        echo "Il reste $placesRestantes place(s) disponible(s) sur votre code";
+                    }
+
+
+                }
+            
+
+?>
+
 
             <div class="row text-center">
                 <div class="col-md-6">
                     <input type="submit" name="submit" class="btn btn-success text-center form-controll" id="" value="Generate Barcode">
+                    <br>
                     <?php
 						if(isset($_POST['submit'])) {
 						   $string = trim($_POST['string']);
-						   if($string != '') {
-							  echo '<h6>Generated Barcode</h6>';
-							  echo "<center><img alt='testing' src='barcode.php?codetype=code39&size=50&text=".$string."&print=true'/></center>";  
-						   } else {
-							   echo "S'il vous plaît entrer un code!";
-						   }
+						    if($string != '') {
+                                testCode($_POST['string']);
+                            }
+
+						    else {
+							    echo "S'il vous plaît entrer un code!";
+						    }
 						}
 					?>
                 </div>
