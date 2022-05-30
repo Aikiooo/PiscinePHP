@@ -29,6 +29,7 @@
         require_once('navbarLambda.php')
         
     ?>
+    
     <h3>Pour se détendre après une journée intense <br />
         il y a de nombreuses piscines à Rennes </h3>
     <br />

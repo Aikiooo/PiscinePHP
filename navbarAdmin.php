@@ -16,7 +16,7 @@
                         <a class="nav-link active" href="#">Paramètre client</a>
                     </li>
                     <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Paramètre personnel</a>
+                        <a class="nav-link active" href="../PiscinePHP/formulaireAdminBdd.html">Paramètre personnel</a>
 
                     </li>
                     <li class="nav-item pe-4">
