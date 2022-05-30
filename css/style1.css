@@ -1,5 +1,5 @@
 body{
-    background: #3a6fd3;
+    background: #0c2c4d;
    
     width:400px;
     margin:0 auto;
@@ -30,7 +30,7 @@ input[type=text], input[type=password] {
 }
 /* Set a style for all buttons */
 input[type=submit] {
-    background-color: #3a6fd3;
+    background-color: #0c2c4d;
      color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -40,6 +40,6 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color: white;
-    color: #3a6fd3;
-    border: 1px solid #3a6fd3   ;
+    color: #0c2c4d;
+    border: 1px solid #0c2c4d   ;
 }

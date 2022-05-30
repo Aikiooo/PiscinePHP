@@ -37,6 +37,7 @@
         <br>
         <br>
         <br>
+        <img src="./imgP/abonnementlogo.jpg" alt="logo" style="float:right;width:480px;height:240px;">
         <br>
 </p>
 <p>
@@ -46,7 +47,6 @@
                 <h5 class="top-margin">Venez nager  : <a href="https://waytolearnx.com/2019/07/generateur-de-code-barre-en-php.html" target="_blank">Code barre pour votre abonnement </a></h5>
             </div>
         </div>
-
         <form class="form-horizontal" method="POST" id="barcode">
             <div class="row">
                 <div class="col-md-6">
